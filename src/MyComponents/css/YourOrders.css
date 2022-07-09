@@ -1,0 +1,36 @@
+.main_1{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    
+    background: linear-gradient(-70deg, #474747, #000000d1);
+    background-image: url(https://images.pexels.com/photos/1008206/pexels-photo-1008206.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+.order_section{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    /* height: 80vh; */
+}
+.order{
+    margin: 2%;
+    /* background-color: black; */
+    /* outline: 2px solid black; */
+    height: 50vh;
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    font-size: x-large;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(35px);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 80px rgb(0 0 0 / 25%);
+    padding: 30px 30px 30px 30px;
+    overflow: hidden;
+    color: white;
+    flex-direction: column;
+    justify-content: space-around; align-items: center;
+}
